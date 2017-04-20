@@ -1,9 +1,11 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 import './index.css';
 
+import router from './router';
+
 ReactDOM.render(
-  <App />,
+  router,
   document.getElementById('root')
 );

@@ -1,10 +1,13 @@
 import React from 'react';
+import { Grid, Row } from 'react-bootstrap';
 
-const App = () => {
+const App = ({children}) => {
   return(
-    <div>
-      yoloOnTheBattlefield
-    </div>
+    <Grid id='App'>
+      <Row>
+        {children}
+      </Row>
+    </Grid>
   )
 }
 
